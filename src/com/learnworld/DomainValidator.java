@@ -16,7 +16,11 @@ public class DomainValidator {
 		} else {
 		    System.out.println("api callback error!");
 		    try {
+<<<<<<< HEAD
                 Thread.sleep(30000);
+=======
+                Thread.sleep(60000);
+>>>>>>> a3ec2eb1e850c867c3e46d4951784485026a6990
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }

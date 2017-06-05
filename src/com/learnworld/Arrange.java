@@ -13,7 +13,11 @@ public class Arrange {
 //	        	data.add(String.valueOf(i));
 //	        }
 	       
+<<<<<<< HEAD
 	       for(char item = 'a'; item <= 'z'; item++){
+=======
+	       for(char item = 'a'; item <= 'h'; item++){
+>>>>>>> a3ec2eb1e850c867c3e46d4951784485026a6990
 	    	   data.add(item+"");
 	    	   }
 	       
@@ -21,6 +25,7 @@ public class Arrange {
 //	        data.add("a");
 //	        data.add("b");
 	        //输出A(n,n)的全排列  
+<<<<<<< HEAD
 	        for(int i = 4; i <= 4; i++) {
 	            arrange.arrangeSelect(data,new ArrayList<String>(),i,result);  
 	        }
@@ -35,6 +40,13 @@ public class Arrange {
 		return result;
 	}
 	
+=======
+	        for(int i = 1; i <= 3; i++) {
+	            arrange.arrangeSelect(data,new ArrayList<String>(),i,result);  
+	        }
+	        return result;
+	    }  
+>>>>>>> a3ec2eb1e850c867c3e46d4951784485026a6990
 	 public static void main(String[] args) {  
 		getVlues().forEach(System.out::println);
 	  
@@ -54,12 +66,20 @@ public class Arrange {
 	        	StringBuilder bu = new StringBuilder();
 	        	bu.append("51");
 	            for(E i : target)   {
+<<<<<<< HEAD
 	                System.out.print(i);  
+=======
+	             //   System.out.print(i);  
+>>>>>>> a3ec2eb1e850c867c3e46d4951784485026a6990
 	            	bu.append(i);
 
 	            }
 	            result.add(bu.toString());
+<<<<<<< HEAD
 	            System.out.println();  
+=======
+	          //  System.out.println();  
+>>>>>>> a3ec2eb1e850c867c3e46d4951784485026a6990
 	        }  
 	      
 	        for(int i=0; i<data.size(); i++) {  
