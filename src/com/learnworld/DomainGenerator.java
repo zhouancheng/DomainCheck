@@ -44,11 +44,7 @@ public class DomainGenerator {
             
             
             
-<<<<<<< HEAD
 		   /* // pinyin.txt, used to save all available pinyin
-=======
-		    // pinyin.txt, used to save all available pinyin
->>>>>>> a3ec2eb1e850c867c3e46d4951784485026a6990
            BufferedReader reader = new BufferedReader(new FileReader("pinyin.txt"));
             
             String item = null;
@@ -61,7 +57,6 @@ public class DomainGenerator {
                 for (String item2 : items) {
                     taskQueue.offer(item1 + item2 + ".com");
                 }
-<<<<<<< HEAD
             }*/
             
             
@@ -76,14 +71,6 @@ public class DomainGenerator {
             
          /*   
               System.out.println("kaishi");
-=======
-            }
-            
-            
-            
-            
-            /*   System.out.println("kaishi");
->>>>>>> a3ec2eb1e850c867c3e46d4951784485026a6990
             List<String> va = Arrange.getVlues();
             System.out.println(va.size());
             for (String item1 : va) {
@@ -91,11 +78,7 @@ public class DomainGenerator {
                      taskQueue.offer(item1+".com");
                  }*/
 			
-<<<<<<< HEAD
             int domainThreadNum = 50;
-=======
-            int domainThreadNum = 3;
->>>>>>> a3ec2eb1e850c867c3e46d4951784485026a6990
             CountDownLatch downLatch = new CountDownLatch(domainThreadNum);
 			ExecutorService executor = Executors.newFixedThreadPool(domainThreadNum + 1); 
 			
